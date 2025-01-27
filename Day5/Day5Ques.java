@@ -8,7 +8,7 @@ class Day5Ques {
       System.out.print("Enter a year : ");
       int year=sc.nextInt();
       Boolean res=(year%4==0&&year%100!=0)||year%400==0;
-      System.out.print("it is  leap year : "+res);
+      System.out.println("it is  leap year : "+res);
 
    // Salary Bonus
       
@@ -16,7 +16,7 @@ class Day5Ques {
         int sly=sc.nextInt();
         int exp=sc.nextInt();
         int result=exp>20?sly+(20*sly)/100:sly+(10*sly)/100;
-System.out.print("Your Total salary after add your bonus is : "+result); 
+System.out.println("Your Total salary after add your bonus is : "+result); 
 
  // Person voter age check
 
@@ -25,7 +25,7 @@ System.out.print("Your Total salary after add your bonus is : "+result);
         int age=sc.nextInt();
         
         String  str=age>=18? " You are eligible for vote":" you are not eligible for vote";
-System.out.print(str);
+System.out.println(str);
 
 // check number is neg/post/zero
 
@@ -41,7 +41,7 @@ System.out.println("Number is negative : "+(n<0));
         System.out.print("Enter a number ");
         int num=sc.nextInt();
         
-        System.out.print(num%2==0?"Number is even" :" Number is odd");
+        System.out.println(num%2==0?"Number is even" :" Number is odd");
 
   //1. Check whether the character is alphabet or not
  // 2. If character is alphabet then check if it is in lower case or upper case
